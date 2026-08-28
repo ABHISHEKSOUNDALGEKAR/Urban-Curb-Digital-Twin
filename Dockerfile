@@ -15,10 +15,12 @@ ENV PYTHONUNBUFFERED=1 \
     PIP_NO_CACHE_DIR=1 \
     MPLBACKEND=Agg
 
-# libxml2/proj are runtime dependencies of the SUMO binaries; the rest keeps the
-# layer small.
+# Runtime libraries for the SUMO binaries shipped in the eclipse-sumo wheel.
+# Deliberately unversioned: soname-suffixed names like libproj25 / libgdal32
+# are pinned to one Debian release and break the build the moment the base
+# image moves.
 RUN apt-get update && apt-get install -y --no-install-recommends \
-        libxml2 libproj25 libgdal32 libgl1 \
+        libxml2 libexpat1 libgl1 \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
