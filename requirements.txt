@@ -1,0 +1,22 @@
+# Core simulation + analysis stack (pinned to minimum tested versions)
+simpy>=4.0
+networkx>=3.0
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+PyYAML>=6.0
+matplotlib>=3.7
+plotly>=5.18
+
+# Interactive dashboard (optional at runtime, see src/viz/dashboard.py)
+streamlit>=1.30
+
+# Test + lint
+pytest>=7.4
+pytest-cov>=4.1
+ruff>=0.4
+
+# Optional: SUMO/TraCI traffic backend. Requires a SUMO installation on PATH.
+#   pip install traci sumolib   (and install SUMO: https://sumo.dlr.de)
+# Optional: geospatial export of the curb inventory
+#   pip install geopandas shapely

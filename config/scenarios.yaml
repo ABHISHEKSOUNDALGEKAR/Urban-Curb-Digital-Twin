@@ -1,0 +1,99 @@
+# ---------------------------------------------------------------------------
+# Policy scenarios. Each scenario is a *diff* against the baseline: it may
+# rescale demand, re-allocate curb stalls between regulation types, change
+# pricing, or install a time-of-day regulation schedule.
+#
+# Run one with:
+#   python -m src.experiments.runner --scenario baseline --seeds 30
+# ---------------------------------------------------------------------------
+
+defaults:
+  # Simulated horizon: 5.5 hours, of which the first 90 minutes are warm-up and
+  # are excluded from every reported metric. The warm-up must be long relative
+  # to the mean passenger dwell (55 min) or the curb never fills and every
+  # metric is biased optimistic - this is the single most important run-length
+  # decision in the model.
+  horizon_min: 330
+  warmup_min: 90
+  # Hourly arrival rates (vehicles/hour across the whole district).
+  demand:
+    passenger: 750
+    delivery: 180
+    ridehail: 420
+  # Multiplies the hourly rate over the horizon to create an AM-peak shape.
+  # One entry per simulated hour (linearly interpolated between points).
+  demand_profile: [0.75, 1.0, 1.25, 1.0]
+  pricing_policy: static
+  allocation: null        # null -> use network.yaml baseline_allocation
+  time_of_day_regulation: null
+
+scenarios:
+
+  baseline:
+    label: "Baseline (current allocation, static pricing)"
+    description: >
+      70/18/12 passenger/delivery/ridehail split with flat metered pricing.
+      This is the reference case all other scenarios are differenced against.
+
+  loading_zones:
+    label: "A - Loading zone expansion"
+    description: >
+      Convert 20% of metered passenger stalls to commercial loading zones,
+      the classic freight-curb intervention. Tests whether freight gains
+      exceed passenger losses under the social cost weights.
+    allocation:
+      passenger: 0.56
+      delivery: 0.32
+      ridehail: 0.12
+
+  ridehail_zones:
+    label: "B - Dedicated ridehail zones"
+    description: >
+      Triple the share of curb reserved for TNC pickup/drop-off, drawn
+      proportionally from passenger and delivery.
+    allocation:
+      passenger: 0.58
+      delivery: 0.15
+      ridehail: 0.27
+
+  dynamic_pricing:
+    label: "C - Occupancy-responsive pricing"
+    description: >
+      SFpark-style demand-responsive meter pricing. Price is adjusted on a
+      fixed review interval toward a target occupancy band.
+    pricing_policy: dynamic
+    pricing_params:
+      target_occupancy_low: 0.70
+      target_occupancy_high: 0.85
+      review_interval_min: 30
+      step_up: 1.25
+      step_down: 0.85
+      min_price: 1.0
+      max_price: 12.0
+
+  mixed_curb:
+    label: "D - Time-of-day flexible curb"
+    description: >
+      The same physical stalls carry different regulations by time of day:
+      freight-priority in the early period, general parking mid-day, TNC
+      priority in the evening. Hours are relative to simulation start.
+    time_of_day_regulation:
+      - { from_min: 0,   to_min: 90,  allocation: { passenger: 0.45, delivery: 0.43, ridehail: 0.12 } }
+      - { from_min: 90,  to_min: 180, allocation: { passenger: 0.72, delivery: 0.16, ridehail: 0.12 } }
+      - { from_min: 180, to_min: 240, allocation: { passenger: 0.52, delivery: 0.13, ridehail: 0.35 } }
+
+  demand_shock:
+    label: "E - Ridehail demand shock (+50%)"
+    description: >
+      Baseline curb supply, ridehail arrivals scaled 1.5x. Used to expose
+      cross-modal spillover onto passenger and freight outcomes.
+    demand_scale:
+      ridehail: 1.5
+
+# Additional demand levels used by the sensitivity / elasticity study. These
+# reuse the baseline supply and only scale arrivals.
+demand_levels:
+  low:     { passenger: 0.6, delivery: 0.6, ridehail: 0.6 }
+  normal:  { passenger: 1.0, delivery: 1.0, ridehail: 1.0 }
+  peak:    { passenger: 1.3, delivery: 1.2, ridehail: 1.4 }
+  extreme: { passenger: 1.6, delivery: 1.4, ridehail: 1.9 }

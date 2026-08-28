@@ -1,0 +1,121 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONPATH: ${{ github.workspace }}
+  MPLBACKEND: Agg
+
+jobs:
+  lint:
+    name: Lint and format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install ruff==0.4.10
+      - name: ruff check
+        run: ruff check src tests scripts
+      - name: ruff format --check
+        run: ruff format --check src tests scripts
+
+  test:
+    name: Unit tests (py${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fast test suite
+        run: pytest tests -q -m "not slow and not sumo" --cov=src --cov-report=xml --cov-report=term
+      - name: Upload coverage
+        if: matrix.python-version == '3.11'
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: coverage.xml
+
+  slow-tests:
+    name: Slow tests and SUMO backend
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt eclipse-sumo traci sumolib
+      - name: Confirm SUMO is available
+        run: python -c "from src.sumo import sumo_available; assert sumo_available(), 'SUMO not found'"
+      - name: Slow and SUMO tests
+        run: pytest tests -q -m "slow or sumo"
+
+  integration:
+    name: Integration experiment
+    runs-on: ubuntu-latest
+    needs: [test]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Regenerate the data layer
+        run: python scripts/generate_data.py
+      - name: Run every scenario on a short horizon
+        # Small but real: all six scenarios, several seeds, in parallel. This is
+        # the check that the whole pipeline still produces numbers, not just
+        # that the units still import.
+        run: |
+          python -m src.experiments.runner --all --seeds 4 --workers 2 --out results
+      - name: Parallel scaling benchmark
+        run: python -m src.experiments.runner --benchmark --seeds 8 --out results
+      - name: Build the HTML report
+        run: python -m src.viz.report --results results
+      - name: Verify expected outputs exist
+        run: |
+          test -f results/scenario_means.csv
+          test -f results/baseline/manifest.json
+          test -f results/report.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: integration-results
+          path: results/
+
+  docker:
+    name: Docker image
+    runs-on: ubuntu-latest
+    needs: [test]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - name: Build image (runs the test suite inside)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          load: true
+          tags: curb-twin:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: Smoke-run the image
+        run: docker run --rm curb-twin:ci python -m src.experiments.runner --scenario baseline --seeds 2 --quiet

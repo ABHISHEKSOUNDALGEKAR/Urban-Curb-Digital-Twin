@@ -1,0 +1,98 @@
+# ---------------------------------------------------------------------------
+# Behavioural parameters for the three competing agent classes.
+#
+# Values marked CALIBRATED are the free parameters exposed to
+# src/calibration/calibrate.py. Everything else is fixed by assumption and
+# documented in README "Behavioural model".
+# ---------------------------------------------------------------------------
+
+common:
+  # Cruising speed while actively searching for curb space (m/s). Slower than
+  # free flow: searching vehicles decelerate and scan.
+  search_speed_mps: 4.2
+  walking_speed_mps: 1.35
+  # Maximum number of curb segments a vehicle will try before giving up on legal
+  # parking and taking its fallback action.
+  max_search_attempts: 6
+  # Fixed cost in seconds of inspecting one curb face (slow-rolling past it).
+  # Without this, evaluating a candidate that happens to be on the current
+  # block would be free, and search time would be understated.
+  scan_time_s: 14.0
+  # Vehicles enter and leave the district at its boundary intersections.
+  approach_from_boundary: true
+  # Value of time ($/hour) used to convert time to money in the social cost.
+  value_of_time_per_hour:
+    passenger: 18.0
+    delivery: 42.0      # driver wage + vehicle + delayed freight
+    ridehail: 26.0      # driver + waiting passenger
+
+passenger:
+  # Arrival process
+  mean_dwell_min: 55.0
+  dwell_cv: 0.55                 # coefficient of variation of dwell (lognormal)
+  max_walk_distance_m: 320.0
+
+  # Curb choice weights (utility is a *cost*, lower is better).
+  #   cost = alpha*walk + beta*price + gamma*expected_search + delta*occupancy
+  alpha_walk_per_m: 0.0075       # CALIBRATED  $ per metre walked
+  beta_price: 1.0                # numeraire: price enters at face value
+  gamma_search_per_min: 0.30     # CALIBRATED  $ per expected minute of search
+  delta_occupancy: 1.10          # CALIBRATED  penalty on expected occupancy
+
+  search_radius_m: 260.0         # CALIBRATED
+  # Probability the driver complies with regulation rather than parking
+  # illegally once search patience is exhausted.
+  compliance_probability: 0.86   # CALIBRATED
+  # Patience (minutes of cruising) before the fallback decision is taken.
+  search_patience_min: 8.0
+  # Fine if cited, and per-event probability of enforcement contact.
+  fine_amount: 73.0
+  enforcement_probability: 0.11
+
+delivery:
+  mean_service_min: 14.0
+  service_cv: 0.45
+  max_walk_distance_m: 90.0      # freight cares far more about proximity
+
+  alpha_walk_per_m: 0.045        # CALIBRATED  strong distance aversion
+  beta_price: 0.35               # commercial rates are a small share of cost
+  gamma_search_per_min: 0.95     # CALIBRATED  driver time is expensive
+  delta_occupancy: 0.60
+
+  search_radius_m: 150.0
+  # Freight double-parks readily when no loading zone is available.
+  illegal_parking_probability: 0.55   # CALIBRATED
+  search_patience_min: 3.0
+  fine_amount: 110.0
+  enforcement_probability: 0.16
+
+ridehail:
+  # Curb dwell for a pickup/drop-off: 30-180 s.
+  mean_dwell_s: 74.0
+  dwell_cv: 0.50
+  max_pickup_distance_m: 80.0    # a waiting passenger will not walk a block
+
+  alpha_walk_per_m: 0.012        # passenger walks to the vehicle
+  beta_price: 0.10               # TNC stops are rarely metered
+  gamma_search_per_min: 1.30     # CALIBRATED  circling is pure deadweight
+  delta_occupancy: 1.40
+
+  search_radius_m: 115.0
+  # If no curb is free: circle the block, or double-park.
+  circling_probability: 0.55     # CALIBRATED (else double-park immediately)
+  max_circling_loops: 3
+  circling_loop_s: 95.0
+  search_patience_min: 2.5
+  fine_amount: 93.0
+  enforcement_probability: 0.09
+  # Drop-off is a shorter, less discretionary stop than a pickup.
+  dropoff_dwell_s: 38.0
+  dropoff_search_attempts: 2
+
+  fleet:
+    # Fleet size is derived from demand rather than hard-coded, so that demand
+    # scenarios do not silently change TNC service quality through supply:
+    #   fleet = ceil(arrivals_per_hour * cycle_time_h * slack)
+    mean_cycle_min_estimate: 9.0
+    slack_factor: 1.30
+    min_vehicles: 8

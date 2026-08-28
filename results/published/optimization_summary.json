@@ -1,0 +1,244 @@
+{
+  "scenario": "baseline",
+  "seeds_per_evaluation": 5,
+  "total_objective_evaluations": 402,
+  "total_simulations": 2115,
+  "wall_time_s": 3373.714498087,
+  "search": {
+    "grid": {
+      "allocation": {
+        "passenger": 0.8499999999999999,
+        "delivery": 0.05,
+        "ridehail": 0.10000000000000013
+      },
+      "objective_search_estimate": 10004.287922127573,
+      "n_evaluations": 65,
+      "n_simulations": 325,
+      "wall_time_s": 521.9293921099998
+    },
+    "random": {
+      "allocation": {
+        "passenger": 0.7772608088074725,
+        "delivery": 0.11447591576197519,
+        "ridehail": 0.10826327543055239
+      },
+      "objective_search_estimate": 10327.872312056492,
+      "n_evaluations": 57,
+      "n_simulations": 285,
+      "wall_time_s": 480.5399732139995
+    },
+    "differential_evolution": {
+      "allocation": {
+        "passenger": 0.8084024657406049,
+        "delivery": 0.05,
+        "ridehail": 0.14159753425939503
+      },
+      "objective_search_estimate": 9369.893582247456,
+      "n_evaluations": 198,
+      "n_simulations": 990,
+      "wall_time_s": 1565.8232681710006
+    }
+  },
+  "confirmed": {
+    "current": {
+      "allocation": {
+        "passenger": 0.82,
+        "delivery": 0.13,
+        "ridehail": 0.05
+      },
+      "objective": 13649.374999854688,
+      "stderr": 203.60985482610798,
+      "components": {
+        "passenger_search_cost": 2190.6314665458863,
+        "delivery_delay_cost": 1333.5696598607806,
+        "ridehail_wait_cost": 1619.4553590719777,
+        "illegal_parking_cost": 6367.2,
+        "vmt_cost": 2138.5185143760436
+      },
+      "metrics": {
+        "passenger_search_time_min": 2.193890214482216,
+        "delivery_delay_min": 2.3587590604694233,
+        "ridehail_wait_min": 1.995593837745714,
+        "illegal_parking_rate": 0.07564677919571294,
+        "vmt_miles": 3449.2234102839416,
+        "revenue_usd": 11783.243565769713,
+        "passenger_abandonment_rate": 0.03824054417272155,
+        "curb_occupancy_passenger": 0.8454246624022742,
+        "system_social_cost_usd": 13649.374999854688
+      }
+    },
+    "equal": {
+      "allocation": {
+        "passenger": 0.3333333333333333,
+        "delivery": 0.3333333333333333,
+        "ridehail": 0.3333333333333333
+      },
+      "objective": 13795.304339791192,
+      "stderr": 92.14626752872957,
+      "components": {
+        "passenger_search_cost": 3929.8586509397296,
+        "delivery_delay_cost": 1071.8686521083514,
+        "ridehail_wait_cost": 1389.260560216028,
+        "illegal_parking_cost": 4992.4,
+        "vmt_cost": 2411.9164765270816
+      },
+      "metrics": {
+        "passenger_search_time_min": 3.9137933357746975,
+        "delivery_delay_min": 1.9216454984492757,
+        "ridehail_wait_min": 1.7217187592361942,
+        "illegal_parking_rate": 0.05937233371825658,
+        "vmt_miles": 3890.1878653662607,
+        "revenue_usd": 6809.393898052898,
+        "passenger_abandonment_rate": 0.46190461934906973,
+        "curb_occupancy_passenger": 0.9869281657617176,
+        "system_social_cost_usd": 13795.304339791192
+      }
+    },
+    "demand_share": {
+      "allocation": {
+        "passenger": 0.85,
+        "delivery": 0.0795493792870254,
+        "ridehail": 0.0704506207129746
+      },
+      "objective": 12764.641162709291,
+      "stderr": 147.4720196872784,
+      "components": {
+        "passenger_search_cost": 2138.006485444508,
+        "delivery_delay_cost": 1525.9793653990541,
+        "ridehail_wait_cost": 1469.4307575131477,
+        "illegal_parking_cost": 5511.8,
+        "vmt_cost": 2119.424554352581
+      },
+      "metrics": {
+        "passenger_search_time_min": 2.1209088301863033,
+        "delivery_delay_min": 2.741805115966938,
+        "ridehail_wait_min": 1.8072460253846292,
+        "illegal_parking_rate": 0.06525255714588314,
+        "vmt_miles": 3418.426700568679,
+        "revenue_usd": 11985.459241398297,
+        "passenger_abandonment_rate": 0.029518700902538796,
+        "curb_occupancy_passenger": 0.8362459269422053,
+        "system_social_cost_usd": 12764.641162709293
+      }
+    },
+    "passenger_max": {
+      "allocation": {
+        "passenger": 0.85,
+        "delivery": 0.07650176678445231,
+        "ridehail": 0.07349823321554771
+      },
+      "objective": 12322.94210960925,
+      "stderr": 126.04091939672934,
+      "components": {
+        "passenger_search_cost": 2078.6033401694262,
+        "delivery_delay_cost": 1549.0773328030841,
+        "ridehail_wait_cost": 1423.4878277625653,
+        "illegal_parking_cost": 5177.2,
+        "vmt_cost": 2094.5736088741746
+      },
+      "metrics": {
+        "passenger_search_time_min": 2.0741671281176157,
+        "delivery_delay_min": 2.7478776109776506,
+        "ridehail_wait_min": 1.766043780818224,
+        "illegal_parking_rate": 0.06157641548117291,
+        "vmt_miles": 3378.3445304422175,
+        "revenue_usd": 11902.115979850645,
+        "passenger_abandonment_rate": 0.029449758532428778,
+        "curb_occupancy_passenger": 0.8306992184628953,
+        "system_social_cost_usd": 12322.94210960925
+      }
+    },
+    "opt_grid": {
+      "allocation": {
+        "passenger": 0.8499999999999999,
+        "delivery": 0.05,
+        "ridehail": 0.10000000000000013
+      },
+      "objective": 10019.62736322788,
+      "stderr": 89.01770675242612,
+      "components": {
+        "passenger_search_cost": 2108.4113266592058,
+        "delivery_delay_cost": 1390.7170875893303,
+        "ridehail_wait_cost": 1362.5839408766637,
+        "illegal_parking_cost": 3080.7,
+        "vmt_cost": 2077.2150081026803
+      },
+      "metrics": {
+        "passenger_search_time_min": 2.103899007715382,
+        "delivery_delay_min": 2.4684905927485534,
+        "ridehail_wait_min": 1.6755705581538851,
+        "illegal_parking_rate": 0.03653758934184857,
+        "vmt_miles": 3350.346787262387,
+        "revenue_usd": 10002.061509175113,
+        "passenger_abandonment_rate": 0.03228996751960607,
+        "curb_occupancy_passenger": 0.8479077345223803,
+        "system_social_cost_usd": 10019.62736322788
+      }
+    },
+    "opt_random": {
+      "allocation": {
+        "passenger": 0.7772608088074725,
+        "delivery": 0.11447591576197519,
+        "ridehail": 0.10826327543055239
+      },
+      "objective": 10772.788470748235,
+      "stderr": 79.73259478827828,
+      "components": {
+        "passenger_search_cost": 2377.601598318231,
+        "delivery_delay_cost": 1392.0254848574111,
+        "ridehail_wait_cost": 1362.0705485723552,
+        "illegal_parking_cost": 3513.3,
+        "vmt_cost": 2127.7908390002385
+      },
+      "metrics": {
+        "passenger_search_time_min": 2.376349905808877,
+        "delivery_delay_min": 2.4508186543575285,
+        "ridehail_wait_min": 1.6883601460128639,
+        "illegal_parking_rate": 0.04176793734925051,
+        "vmt_miles": 3431.9207080649003,
+        "revenue_usd": 10226.977131060836,
+        "passenger_abandonment_rate": 0.0476341317309186,
+        "curb_occupancy_passenger": 0.876663184959023,
+        "system_social_cost_usd": 10772.788470748235
+      }
+    },
+    "opt_differential_evolution": {
+      "allocation": {
+        "passenger": 0.8084024657406049,
+        "delivery": 0.05,
+        "ridehail": 0.14159753425939503
+      },
+      "objective": 9552.171216370643,
+      "stderr": 112.86282337588514,
+      "components": {
+        "passenger_search_cost": 2308.5979067982953,
+        "delivery_delay_cost": 1300.690264831379,
+        "ridehail_wait_cost": 1333.330602006538,
+        "illegal_parking_cost": 2508.1,
+        "vmt_cost": 2101.4524427344304
+      },
+      "metrics": {
+        "passenger_search_time_min": 2.303177749784315,
+        "delivery_delay_min": 2.310407578803538,
+        "ridehail_wait_min": 1.6523552759716609,
+        "illegal_parking_rate": 0.02980393827798126,
+        "vmt_miles": 3389.439423765211,
+        "revenue_usd": 9245.853437376836,
+        "passenger_abandonment_rate": 0.043187285175820114,
+        "curb_occupancy_passenger": 0.8843344155844155,
+        "system_social_cost_usd": 9552.171216370643
+      }
+    }
+  },
+  "best_method": "opt_differential_evolution",
+  "improvement_vs_current_pct": {
+    "objective": -30.01751936281085,
+    "passenger_search_time_min": 4.981449599468309,
+    "delivery_delay_min": -2.049869462134155,
+    "ridehail_wait_min": -17.199820689052956,
+    "illegal_parking_rate": -60.601180123118425,
+    "vmt_miles": -1.7332593284761808,
+    "revenue_usd": -21.533885082066774
+  },
+  "significant": true
+}

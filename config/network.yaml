@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# Synthetic downtown test network.
+#
+# A rectangular grid standing in for a small (10-20 block) downtown district.
+# It is deliberately synthetic: see README "Data and limitations". The schema
+# below is the same one a real curb inventory would be loaded into, so swapping
+# in an empirical network is a data-layer change, not an engine change.
+# ---------------------------------------------------------------------------
+network:
+  name: synthetic_downtown_5x5
+  # 5x5 intersections -> 40 street links -> 16 city blocks, 80 curb faces
+  grid_rows: 5
+  grid_cols: 5
+  block_length_m: 130.0          # centre-to-centre spacing of intersections
+  free_flow_speed_kph: 30.0      # urban arterial free-flow speed
+  # Origin of the local metric coordinate system (metres). Kept explicit so the
+  # same generator can be re-pointed at projected real-world coordinates.
+  origin_xy: [0.0, 0.0]
+
+curb:
+  # Each street link carries curb on both sides; a curb *segment* is one face of
+  # one block. Capacity is expressed in vehicle-length stalls.
+  segments_per_link: 2
+  stall_length_m: 6.5
+  # Fraction of each block face that is usable curb (rest is driveways,
+  # hydrants, bus stops, daylighting at corners).
+  usable_fraction: 0.62
+  capacity_jitter: 0.15          # +/- multiplicative noise on stall counts
+
+  # Baseline allocation of stalls to regulation types. Must sum to 1.0.
+  # Chosen to resemble a real downtown inventory: most curb is metered general
+  # parking, loading zones are a modest minority, and dedicated TNC space is
+  # scarce. These are the shares the optimizer is allowed to move.
+  baseline_allocation:
+    passenger: 0.82              # metered general parking
+    delivery: 0.13               # commercial loading zone
+    ridehail: 0.05               # passenger loading zone / TNC pickup
+
+  # Baseline meter pricing ($/hour) by distance band from the district centre.
+  pricing:
+    core_price_per_hour: 4.00
+    edge_price_per_hour: 2.00
+    # Radius (m) inside which the "core" price applies.
+    core_radius_m: 200.0
+  time_limit_min: 120            # posted time limit on metered passenger stalls
+
+congestion:
+  # Simple BPR-style link performance function used by the SimPy backend to turn
+  # link flow into travel time. The SUMO backend replaces this entirely.
+  bpr_alpha: 0.15
+  bpr_beta: 4.0
+  # Link capacity in vehicles/hour used as the BPR denominator.
+  link_capacity_vph: 600.0
+  # Extra delay (s per vehicle per event) imposed on a link by a vehicle that is
+  # double-parked in the travel lane.
+  double_park_delay_s: 22.0
+
+demand_geography:
+  # Destination choice is not uniform over the district. Passenger trips are
+  # attracted to the core, freight deliveries are concentrated on designated
+  # commercial frontages, and ridehail pickups follow a mix of the two.
+  # `core_bias` is the exponent on an inverse-distance-to-centre weight.
+  core_bias:
+    passenger: 1.4
+    delivery: 0.8
+    ridehail: 1.1
+  # Share of intersections designated as commercial (freight destinations are
+  # drawn only from these, which is what makes loading-zone supply bind
+  # locally even when district-wide freight capacity looks ample).
+  commercial_node_share: 0.36

@@ -1,0 +1,3962 @@
+{
+ "type": "FeatureCollection",
+ "name": "synthetic_downtown_5x5",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "local-metric-not-georeferenced"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N00_00"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N00_01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N00_02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N00_03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N00_04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N01_00"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N01_01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N01_02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N01_03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N01_04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N02_00"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N02_01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N02_02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N02_03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N02_04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N03_00"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N03_01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N03_02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N03_03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N03_04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N04_00"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N04_01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N04_02"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N04_03"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "intersection",
+    "node_id": "N04_04"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      130.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_00",
+    "to": "N00_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_00_N00_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_00",
+    "to": "N01_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_00_N01_00_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      0.0
+     ],
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_01",
+    "to": "N00_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_00_N00_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      0.0
+     ],
+     [
+      260.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_01",
+    "to": "N00_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_01_N00_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      0.0
+     ],
+     [
+      130.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_01",
+    "to": "N01_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_01_N01_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      0.0
+     ],
+     [
+      130.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_02",
+    "to": "N00_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_01_N00_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      0.0
+     ],
+     [
+      390.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_02",
+    "to": "N00_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_02_N00_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      0.0
+     ],
+     [
+      260.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_02",
+    "to": "N01_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_02_N01_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      0.0
+     ],
+     [
+      260.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_03",
+    "to": "N00_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_02_N00_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      0.0
+     ],
+     [
+      520.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_03",
+    "to": "N00_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_03_N00_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      0.0
+     ],
+     [
+      390.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_03",
+    "to": "N01_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_03_N01_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      0.0
+     ],
+     [
+      390.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_04",
+    "to": "N00_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_03_N00_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      0.0
+     ],
+     [
+      520.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N00_04",
+    "to": "N01_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_04_N01_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      130.0
+     ],
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_00",
+    "to": "N00_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_00_N01_00_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      130.0
+     ],
+     [
+      130.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_00",
+    "to": "N01_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_00_N01_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      130.0
+     ],
+     [
+      0.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_00",
+    "to": "N02_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_00_N02_00_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      130.0
+     ],
+     [
+      130.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_01",
+    "to": "N00_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_01_N01_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      130.0
+     ],
+     [
+      0.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_01",
+    "to": "N01_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_00_N01_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      130.0
+     ],
+     [
+      260.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_01",
+    "to": "N01_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_01_N01_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      130.0
+     ],
+     [
+      130.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_01",
+    "to": "N02_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_01_N02_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      130.0
+     ],
+     [
+      260.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_02",
+    "to": "N00_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_02_N01_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      130.0
+     ],
+     [
+      130.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_02",
+    "to": "N01_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_01_N01_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      130.0
+     ],
+     [
+      390.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_02",
+    "to": "N01_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_02_N01_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      130.0
+     ],
+     [
+      260.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_02",
+    "to": "N02_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_02_N02_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      130.0
+     ],
+     [
+      390.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_03",
+    "to": "N00_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_03_N01_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      130.0
+     ],
+     [
+      260.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_03",
+    "to": "N01_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_02_N01_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      130.0
+     ],
+     [
+      520.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_03",
+    "to": "N01_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_03_N01_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      130.0
+     ],
+     [
+      390.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_03",
+    "to": "N02_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_03_N02_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      130.0
+     ],
+     [
+      520.0,
+      0.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_04",
+    "to": "N00_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N00_04_N01_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      130.0
+     ],
+     [
+      390.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_04",
+    "to": "N01_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_03_N01_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      130.0
+     ],
+     [
+      520.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N01_04",
+    "to": "N02_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_04_N02_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      260.0
+     ],
+     [
+      0.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_00",
+    "to": "N01_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_00_N02_00_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      260.0
+     ],
+     [
+      130.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_00",
+    "to": "N02_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_00_N02_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      260.0
+     ],
+     [
+      0.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_00",
+    "to": "N03_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_00_N03_00_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      260.0
+     ],
+     [
+      130.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_01",
+    "to": "N01_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_01_N02_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      260.0
+     ],
+     [
+      0.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_01",
+    "to": "N02_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_00_N02_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      260.0
+     ],
+     [
+      260.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_01",
+    "to": "N02_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_01_N02_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      260.0
+     ],
+     [
+      130.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_01",
+    "to": "N03_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_01_N03_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      260.0
+     ],
+     [
+      260.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_02",
+    "to": "N01_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_02_N02_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      260.0
+     ],
+     [
+      130.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_02",
+    "to": "N02_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_01_N02_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      260.0
+     ],
+     [
+      390.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_02",
+    "to": "N02_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_02_N02_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      260.0
+     ],
+     [
+      260.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_02",
+    "to": "N03_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_02_N03_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      260.0
+     ],
+     [
+      390.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_03",
+    "to": "N01_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_03_N02_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      260.0
+     ],
+     [
+      260.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_03",
+    "to": "N02_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_02_N02_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      260.0
+     ],
+     [
+      520.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_03",
+    "to": "N02_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_03_N02_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      260.0
+     ],
+     [
+      390.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_03",
+    "to": "N03_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_03_N03_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      260.0
+     ],
+     [
+      520.0,
+      130.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_04",
+    "to": "N01_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N01_04_N02_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      260.0
+     ],
+     [
+      390.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_04",
+    "to": "N02_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_03_N02_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      260.0
+     ],
+     [
+      520.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N02_04",
+    "to": "N03_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_04_N03_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      390.0
+     ],
+     [
+      0.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_00",
+    "to": "N02_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_00_N03_00_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      390.0
+     ],
+     [
+      130.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_00",
+    "to": "N03_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_00_N03_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      390.0
+     ],
+     [
+      0.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_00",
+    "to": "N04_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_00_N04_00_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      390.0
+     ],
+     [
+      130.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_01",
+    "to": "N02_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_01_N03_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      390.0
+     ],
+     [
+      0.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_01",
+    "to": "N03_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_00_N03_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      390.0
+     ],
+     [
+      260.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_01",
+    "to": "N03_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_01_N03_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      390.0
+     ],
+     [
+      130.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_01",
+    "to": "N04_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_01_N04_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      390.0
+     ],
+     [
+      260.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_02",
+    "to": "N02_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_02_N03_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      390.0
+     ],
+     [
+      130.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_02",
+    "to": "N03_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_01_N03_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      390.0
+     ],
+     [
+      390.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_02",
+    "to": "N03_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_02_N03_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      390.0
+     ],
+     [
+      260.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_02",
+    "to": "N04_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_02_N04_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      390.0
+     ],
+     [
+      390.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_03",
+    "to": "N02_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_03_N03_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      390.0
+     ],
+     [
+      260.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_03",
+    "to": "N03_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_02_N03_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      390.0
+     ],
+     [
+      520.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_03",
+    "to": "N03_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_03_N03_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      390.0
+     ],
+     [
+      390.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_03",
+    "to": "N04_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_03_N04_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      390.0
+     ],
+     [
+      520.0,
+      260.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_04",
+    "to": "N02_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N02_04_N03_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      390.0
+     ],
+     [
+      390.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_04",
+    "to": "N03_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_03_N03_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      390.0
+     ],
+     [
+      520.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N03_04",
+    "to": "N04_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_04_N04_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      520.0
+     ],
+     [
+      0.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_00",
+    "to": "N03_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_00_N04_00_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      0.0,
+      520.0
+     ],
+     [
+      130.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_00",
+    "to": "N04_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N04_00_N04_01_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      520.0
+     ],
+     [
+      130.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_01",
+    "to": "N03_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_01_N04_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      520.0
+     ],
+     [
+      0.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_01",
+    "to": "N04_00",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N04_00_N04_01_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      130.0,
+      520.0
+     ],
+     [
+      260.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_01",
+    "to": "N04_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N04_01_N04_02_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      520.0
+     ],
+     [
+      260.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_02",
+    "to": "N03_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_02_N04_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      520.0
+     ],
+     [
+      130.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_02",
+    "to": "N04_01",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N04_01_N04_02_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      260.0,
+      520.0
+     ],
+     [
+      390.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_02",
+    "to": "N04_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N04_02_N04_03_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      520.0
+     ],
+     [
+      390.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_03",
+    "to": "N03_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_03_N04_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      520.0
+     ],
+     [
+      260.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_03",
+    "to": "N04_02",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N04_02_N04_03_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      390.0,
+      520.0
+     ],
+     [
+      520.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_03",
+    "to": "N04_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N04_03_N04_04_S0"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      520.0
+     ],
+     [
+      520.0,
+      390.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_04",
+    "to": "N03_04",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N03_04_N04_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      520.0,
+      520.0
+     ],
+     [
+      390.0,
+      520.0
+     ]
+    ]
+   },
+   "properties": {
+    "kind": "street_link",
+    "from": "N04_04",
+    "to": "N04_03",
+    "length_m": 130.0,
+    "free_flow_s": 15.6,
+    "curb_ids": [
+     "N04_03_N04_04_S1"
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_00_N00_01_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_00_N00_01_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_00_N01_00_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_00_N01_00_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_01_N00_02_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_01_N00_02_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_01_N01_01_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_01_N01_01_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_02_N00_03_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 10,
+    "stalls_delivery": 3,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_02_N00_03_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_02_N01_02_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_02_N01_02_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_03_N00_04_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     0.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_03_N00_04_S1",
+    "total_stalls": 14,
+    "stalls_passenger": 10,
+    "stalls_delivery": 3,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_03_N01_03_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_03_N01_03_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 10,
+    "stalls_delivery": 3,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_04_N01_04_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     65.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N00_04_N01_04_S1",
+    "total_stalls": 14,
+    "stalls_passenger": 10,
+    "stalls_delivery": 3,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_00_N01_01_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_00_N01_01_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_00_N02_00_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_00_N02_00_S1",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_01_N01_02_S0",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_01_N01_02_S1",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_01_N02_01_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_01_N02_01_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_02_N01_03_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_02_N01_03_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_02_N02_02_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_02_N02_02_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_03_N01_04_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     130.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_03_N01_04_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_03_N02_03_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_03_N02_03_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_04_N02_04_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     195.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N01_04_N02_04_S1",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_00_N02_01_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_00_N02_01_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_00_N03_00_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_00_N03_00_S1",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_01_N02_02_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_01_N02_02_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_01_N03_01_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_01_N03_01_S1",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_02_N02_03_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_02_N02_03_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_02_N03_02_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_02_N03_02_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_03_N02_04_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     260.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_03_N02_04_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_03_N03_03_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_03_N03_03_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_04_N03_04_S0",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     325.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N02_04_N03_04_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_00_N03_01_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_00_N03_01_S1",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_00_N04_00_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_00_N04_00_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_01_N03_02_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_01_N03_02_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_01_N04_01_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_01_N04_01_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_02_N03_03_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_02_N03_03_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_02_N04_02_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     260.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_02_N04_02_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 4.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_03_N03_04_S0",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     390.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_03_N03_04_S1",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_03_N04_03_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     390.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_03_N04_03_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_04_N04_04_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     520.0,
+     455.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N03_04_N04_04_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N04_00_N04_01_S0",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     65.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N04_00_N04_01_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N04_01_N04_02_S0",
+    "total_stalls": 14,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     195.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N04_01_N04_02_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N04_02_N04_03_S0",
+    "total_stalls": 12,
+    "stalls_passenger": 10,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     325.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N04_02_N04_03_S1",
+    "total_stalls": 11,
+    "stalls_passenger": 9,
+    "stalls_delivery": 1,
+    "stalls_ridehail": 1,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N04_03_N04_04_S0",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     455.0,
+     520.0
+    ]
+   },
+   "properties": {
+    "kind": "curb_segment",
+    "curb_id": "N04_03_N04_04_S1",
+    "total_stalls": 13,
+    "stalls_passenger": 11,
+    "stalls_delivery": 2,
+    "stalls_ridehail": 0,
+    "price_usd_per_hour": 2.0
+   }
+  }
+ ]
+}

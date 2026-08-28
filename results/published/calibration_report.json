@@ -1,0 +1,75 @@
+{
+  "method": "differential_evolution",
+  "theta": {
+    "passenger_alpha_walk": 0.011214563632278882,
+    "passenger_gamma_search": 0.4094064970364895,
+    "passenger_delta_occupancy": 1.8558464016626082,
+    "passenger_search_radius": 217.5132030757673,
+    "passenger_compliance": 0.5116896268618965,
+    "delivery_illegal_prob": 0.781110448583952,
+    "ridehail_gamma_search": 2.204998621538667
+  },
+  "calibration_error": {
+    "rmse": 0.032868367948979724,
+    "mae": 0.025772885291703032,
+    "bias": -0.004636151111979248,
+    "corr": 0.9755306006131617,
+    "n_segments": 68
+  },
+  "validation_error": {
+    "rmse": 0.06061165153340078,
+    "mae": 0.04160183403486,
+    "bias": -0.026446005757340935,
+    "corr": 0.8523097617554745,
+    "n_segments": 68
+  },
+  "heldout_behavioural": {
+    "sim_illegal_parking_rate": 0.08421202338791156,
+    "sim_passenger_illegal_rate": 0.06394600408881339,
+    "sim_delivery_illegal_rate": 0.05701405606407226,
+    "sim_passenger_search_time_min": 1.5875492073919675,
+    "observed_illegal_parking_rate": 0.07217295005258689,
+    "abs_error_illegal_parking_rate": 0.012039073335324668,
+    "observed_passenger_illegal_rate": 0.040404483458710894,
+    "abs_error_passenger_illegal_rate": 0.023541520630102494,
+    "observed_delivery_illegal_rate": 0.04645769083320954,
+    "abs_error_delivery_illegal_rate": 0.010556365230862723,
+    "observed_passenger_search_time_min": 1.6809888486064462,
+    "abs_error_passenger_search_time_min": 0.09343964121447867
+  },
+  "n_evaluations": 252,
+  "wall_time_s": 932.725524851,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "ground_truth": {
+    "passenger_alpha_walk": 0.0112,
+    "passenger_gamma_search": 0.52,
+    "passenger_delta_occupancy": 1.65,
+    "passenger_search_radius": 205.0,
+    "passenger_compliance": 0.78,
+    "delivery_illegal_prob": 0.68,
+    "ridehail_gamma_search": 0.85
+  },
+  "parameter_recovery": {
+    "passenger_alpha_walk": 1.4563632278882452e-05,
+    "passenger_gamma_search": -0.1105935029635105,
+    "passenger_delta_occupancy": 0.20584640166260826,
+    "passenger_search_radius": 12.513203075767308,
+    "passenger_compliance": -0.2683103731381036,
+    "delivery_illegal_prob": 0.1011104485839519,
+    "ridehail_gamma_search": 1.354998621538667,
+    "normalised_l2": 0.7523448524218915
+  },
+  "baseline_error": {
+    "calibration_rmse": 0.08726422913330384,
+    "validation_rmse": 0.06501412054330491
+  },
+  "oracle_error": {
+    "calibration_rmse": 0.037298833272569436,
+    "validation_rmse": 0.035942391534175056,
+    "measurement_noise_sd": 0.035
+  }
+}

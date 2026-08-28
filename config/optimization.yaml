@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------------------
+# Curb allocation optimization.
+#
+# Decision vector x = (x_passenger, x_delivery, x_ridehail), the district-wide
+# share of curb stalls assigned to each regulation type, subject to
+#     sum(x) = 1,  x_i in [lb_i, ub_i].
+# The simplex constraint is enforced by construction (see optimizer.py) so the
+# search operates on an unconstrained box.
+# ---------------------------------------------------------------------------
+
+decision:
+  bounds:
+    passenger: [0.30, 0.85]
+    delivery:  [0.05, 0.45]
+    ridehail:  [0.05, 0.40]
+
+objective:
+  # Weights on each normalised component of the system social cost. All terms
+  # are converted to $/hour of district-wide cost before weighting, so the
+  # weights express *policy priority*, not unit conversion.
+  weights:
+    passenger_search_cost: 1.0
+    delivery_delay_cost: 1.0
+    ridehail_wait_cost: 1.0
+    illegal_parking_cost: 1.0
+    vmt_cost: 1.0
+  # External cost of one vehicle-mile of cruising ($/mile): congestion,
+  # emissions and crash externalities.
+  vmt_external_cost_per_mile: 0.62
+  # Social cost of one illegal-parking event ($): lane blockage, safety,
+  # enforcement burden. Distinct from the fine, which is a transfer.
+  illegal_event_social_cost: 14.0
+
+search:
+  # Seeds averaged per objective evaluation. Low seed counts make the objective
+  # noisy; this is the central cost/precision tradeoff of simulation-based
+  # optimization and is reported in the results. Raise it (and the budgets
+  # below) when you have more cores than the reference run had.
+  seeds_per_evaluation: 5
+  # Common random numbers: reuse the same seed set at every candidate point so
+  # differences between allocations are not swamped by sampling noise.
+  common_random_numbers: true
+
+  grid:
+    step: 0.05
+  random:
+    n_samples: 60
+  differential_evolution:
+    # popsize is a multiplier on the dimension, so the population is 3*6 = 18
+    # candidates and the budget is roughly maxiter*popsize*dim evaluations.
+    maxiter: 10
+    popsize: 6
+    tol: 0.01
+    mutation: [0.5, 1.0]
+    recombination: 0.7
+    polish: false
+
+pareto:
+  # Objectives traded off in the multi-objective study.
+  objectives: [passenger_search_min, delivery_delay_min, ridehail_wait_min, illegal_rate, revenue]
+  n_samples: 80

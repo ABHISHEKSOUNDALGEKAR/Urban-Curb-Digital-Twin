@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.ruff_cache/
+
+# Simulation outputs: regenerate with `make experiments`.
+# The `published/` snapshot is committed on purpose so the repository
+# demonstrates itself without a CPU-hour of setup.
+results/**
+!results/.gitkeep
+!results/README.md
+!results/published/
+!results/published/**
+sumo_tmp/
+*.sumocfg.out
+*.xml.gz
+
+.DS_Store
+.idea/
+.vscode/
